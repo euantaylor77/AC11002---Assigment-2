@@ -1,0 +1,63 @@
+/* light blue ADD7F6 */
+/* darker blue454E9E */
+/* purpleish 8367C7 */
+/* white/cream F0FFF1 */
+@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700|Quattrocento:400,700');
+
+
+
+/*CSS for the navigation bar*/
+ul {
+  list-style-type: none;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+    background-color: #8367C7;
+
+}
+
+li {
+  float: left;
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #454E9E;
+}
+
+li a:active {
+  background-color: #ADD7F6;
+}
+
+.current {
+  background-color: #8367C7;;
+}
+
+
+/*body css  */
+body{
+  max-width: 1200px;
+  margin:0 auto;
+}
+h1,h2,h3{
+
+  font-family: 'Quattrocento Sans', sans-serif;
+font-weight: 400;
+color: #454E9E;
+}
+
+p{
+
+  font-family: 'Quattrocento Sans', sans-serif;
+  color: #454E9E;
+}
