@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700|Quattrocento:400,700');
+
+
+}
+#mainContent{
+background-color:#e0dad9 ;
+width: 70%;
+float: left;
+height: 300px;
+
+}
+#sideContent{
+background-color:#999594 ;
+width: 30%;
+float: right;
+height: 300px;
+}
