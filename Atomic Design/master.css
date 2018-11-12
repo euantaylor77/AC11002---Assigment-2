@@ -1,7 +1,4 @@
-/* light blue ADD7F6 */
-/* darker blue454E9E */
-/* purpleish 8367C7 */
-/* white/cream F0FFF1 */
+/* import for fonts used within the website */
 @import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700|Quattrocento:400,700');
 
 
@@ -48,16 +45,52 @@ li a:active {
 body{
   max-width: 1200px;
   margin:0 auto;
+  background-color: black;
 }
-h1,h2,h3{
-
+h1{
+  font-size: 60px;
   font-family: 'Quattrocento Sans', sans-serif;
 font-weight: 400;
 color: #454E9E;
 }
 
+h2{
+  font-size: 40px;
+  font-family: 'Quattrocento Sans', sans-serif;
+font-weight: 400;
+color: #454E9E;
+}
+
+h3{
+font-size: 25px;
+font-family: 'Quattrocento Sans', sans-serif;
+font-weight: 400;
+color: #454E9E;
+
+}
 p{
 
   font-family: 'Quattrocento Sans', sans-serif;
+  color: #8367C7;
+  font-size: 15px;
+}
+
+/*all of the id selectors used in atomic design*/
+#lightblue{
+  color: #ADD7F6;
+}
+#darkerblue{
   color: #454E9E;
+}
+#purpleish{
+   color: #8367C7;
+}
+#cream{
+  color: #F0FFF1;
+}
+#QuattrocentoSans{
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+#Quattrocento{
+  font-family: 'Quattrocento', sans-serif;
 }
