@@ -36,7 +36,47 @@ p{
   font-size: 15px;
 }
 
+/* CSS for the navigation bar*/
+ul {
+  list-style-type: none;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+    background-color: #8367C7;
+
+}
+
+li {
+  float: left;
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #454E9E;
+}
+
+li a:active {
+  background-color: #ADD7F6;
+}
+
+.current {
+  background-color: #8367C7;;
+}
+
+
+
 /*all of the id selectors used in atomic design*/
+
 #lightblue{
   color: #ADD7F6;
 }
@@ -58,4 +98,48 @@ p{
 header img{
   height: 40px;
   float: left;
+}
+#moleculesOnecol{
+  width: 100%;
+  float: left;
+}
+#moleculesTwocol1{
+  width: 50%;
+  float: left;
+}
+#moleculesTwocol2{
+  width: 50%;
+  float: left;
+}
+#moleculesThreecol1{
+  width: 33%;
+  float: left;
+}
+#moleculesThreecol2{
+  width: 33%;
+  float: left;
+}
+#moleculesThreecol3{
+  width: 33%;
+  float: left;
+}
+#moleculesfootersection1{
+  width: 30%;
+  float: left;
+}
+#moleculesfootersection2{
+  width: 30%;
+  float: left;
+}
+#moleculesfootersection3{
+  width: 30%;
+  float: right;
+}
+#templateMaincol{
+  width: 70%;
+  float: left;
+}
+#templateSidecol{
+  width: 30%;
+  float: right;
 }
