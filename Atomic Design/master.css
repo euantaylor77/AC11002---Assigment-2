@@ -2,55 +2,58 @@
 @import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700|Quattrocento:400,700');
 @import URL('https://use.fontawesome.com/releases/v5.5.0/css/all.css');
 
+
+
 /*body css  */
-body{
+body {
   max-width: 1200px;
-  margin:0 auto;
-  background-color: #c2c2d6;
+  margin: 0 auto;
+  background-color: #F7F7FF;
 }
-h1{
+
+h1 {
   font-size: 60px;
   font-family: 'Quattrocento Sans', sans-serif;
-font-weight: 400;
-color: #454E9E;
+  font-weight: 400;
+  color: #272635;
 }
 
-h2{
+h2 {
   font-size: 40px;
   font-family: 'Quattrocento Sans', sans-serif;
-font-weight: 400;
-color: #454E9E;
+  font-weight: 400;
+  color: #272635;
 }
 
-h3{
-font-size: 25px;
-font-family: 'Quattrocento Sans', sans-serif;
-font-weight: 400;
-color: #454E9E;
-
-}
-p{
-
+h3 {
+  font-size: 30px;
   font-family: 'Quattrocento Sans', sans-serif;
-  color: #8367C7;
-  font-size: 15px;
+  font-weight: 400;
+  color: #272635;
+}
+
+p {
+  font-family: 'Quattrocento Sans', sans-serif;
+  color: #5F5B6B;
+  font-size: 23px;
 }
 
 /* CSS for the navigation bar*/
-ul {
-  list-style-type: none;
-  font-family: 'Quattrocento Sans', sans-serif;
-  font-weight: 700;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-    background-color: #8367C7;
 
-}
+  ul {
+    list-style-type: none;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #272635;
+  }
+
 
 li {
   float: left;
-
 }
 
 li a {
@@ -62,84 +65,99 @@ li a {
 }
 
 li a:hover {
-  background-color: #454E9E;
+  background-color: #5F5B6B;
 }
 
 li a:active {
-  background-color: #ADD7F6;
+  background-color: #272635;
 }
 
 .current {
-  background-color: #8367C7;;
+  background-color: #272635;
+
 }
-
-
 
 /*all of the id selectors used in atomic design*/
+#blackish {
+  color: #272635;
+}
 
-#lightblue{
-  color: #ADD7F6;
+#greyish {
+  color: #5F5B6B;
 }
-#darkerblue{
-  color: #454E9E;
+
+#whiteish{
+  color: #F7F7FF;
 }
-#purpleish{
-   color: #8367C7;
-}
-#cream{
-  color: #F0FFF1;
-}
-#QuattrocentoSans{
+
+#QuattrocentoSans {
   font-family: 'Quattrocento Sans', sans-serif;
 }
-#Quattrocento{
+
+#Quattrocento {
   font-family: 'Quattrocento', sans-serif;
 }
-header img{
+
+header img {
   height: 40px;
   float: left;
 }
-#moleculesOnecol{
+
+#moleculesOnecol {
   width: 100%;
   float: left;
 }
-#moleculesTwocol1{
+
+#moleculesTwocol1 {
   width: 50%;
   float: left;
 }
-#moleculesTwocol2{
+
+#moleculesTwocol2 {
   width: 50%;
   float: left;
 }
-#moleculesThreecol1{
+
+#moleculesThreecol1 {
   width: 33%;
   float: left;
 }
-#moleculesThreecol2{
+
+#moleculesThreecol2 {
   width: 33%;
   float: left;
 }
-#moleculesThreecol3{
+
+#moleculesThreecol3 {
   width: 33%;
   float: left;
 }
-#moleculesfootersection1{
+
+#moleculesfootersection1 {
   width: 30%;
   float: left;
 }
-#moleculesfootersection2{
+
+#moleculesfootersection2 {
   width: 30%;
   float: left;
 }
-#moleculesfootersection3{
+
+#moleculesfootersection3 {
   width: 30%;
   float: right;
 }
-#templateMaincol{
+
+#templateMaincol {
   width: 70%;
   float: left;
 }
-#templateSidecol{
+
+#templateSidecol {
   width: 30%;
   float: right;
+}
+#mainheading{
+  background-color: #272635;
+  color: #F7F7FF;
 }

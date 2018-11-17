@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700|Quattrocento:400,700');
+
+#education_historymain{
+  background-color:#F7F7FF ;
+  width:50%;
+  float: left;
+
+}
+#education_historyphoto{
+  background-color:#F7F7FF ;
+  width:50%;
+  float: right;
+
+}
+#employment_historymain{
+  background-color:#F7F7FF ;
+  width:50%;
+  float: left;
+
+}
+#employment_historyphoto{
+  background-color:#F7F7FF ;
+  width:50%;
+  float: left;
+  height: 200px;
+  }
+}
