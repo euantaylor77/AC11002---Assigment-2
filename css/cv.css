@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700|Quattrocento:400,700');
 
-#education_historymain{
+#cvmainSection{
   background-color:#F7F7FF ;
   width:50%;
   float: left;
+
+}
+#cvsideSection{
+  background-color:#F7F7FF ;
+  width:50%;
+  float: right;
 
 }
 #education_historyphoto{
@@ -12,16 +18,9 @@
   float: right;
 
 }
-#employment_historymain{
-  background-color:#F7F7FF ;
-  width:50%;
-  float: left;
-
-}
 #employment_historyphoto{
   background-color:#F7F7FF ;
   width:50%;
-  float: left;
+  float: right;
   height: 200px;
   }
-}

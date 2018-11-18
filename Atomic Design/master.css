@@ -5,14 +5,19 @@
 
 
 /*body css  */
+
+
 body {
-  max-width: 1200px;
+  max-width: 900px;
   margin: 0 auto;
   background-color: #F7F7FF;
 }
+header{
+  width: 100%;
+}
 
 h1 {
-  font-size: 60px;
+  font-size: 55px;
   font-family: 'Quattrocento Sans', sans-serif;
   font-weight: 400;
   color: #272635;
@@ -35,7 +40,7 @@ h3 {
 p {
   font-family: 'Quattrocento Sans', sans-serif;
   color: #5F5B6B;
-  font-size: 23px;
+  font-size: 21px;
 }
 
 /* CSS for the navigation bar*/
@@ -160,4 +165,6 @@ header img {
 #mainheading{
   background-color: #272635;
   color: #F7F7FF;
+  margin: 0;
+  font-size: 64px;
 }
