@@ -1,0 +1,15 @@
+/*css setting heading margin on the top*/
+h2{
+  margin-top: 33.2px;
+}
+
+/*css setting heading margin on the bottom*/
+h4{
+  margin-bottom: 15px;
+}
+
+/*css setting image corners to be rounded and give padding at the bottom  */
+img{
+  border-radius: 5px;
+  padding-bottom: 15px;
+}

@@ -1,3 +1,4 @@
+/*css for joanne card, setting margins, max width and floating the card to the left*/
 .joanneCard {
   max-width: 45%;
   margin-left: 35px;
@@ -7,6 +8,7 @@
   float: left;
 }
 
+/*css for grant card, setting margins, max width and floating the card to the right*/
 .grantCard {
   max-width: 45%;
   margin-left: 35px;
@@ -15,6 +17,7 @@
   float: right;
 }
 
+/*css for calum card, setting margins, max width and floating the card to the left*/
 .calumCard {
   width: 30%;
   margin-left: 35px;
@@ -23,6 +26,7 @@
   float: left;
 }
 
+/*css for fraser card, setting margins, max width and floating the card to the left*/
 .fraserCard {
   width: 30%;
   margin-right: 10px;
@@ -30,33 +34,15 @@
   float: left;
 }
 
+/*css for murphy card, setting margins, max width and floating the card to the left*/
 .murphyCard {
   width: 30%;
   border-radius: 5px;
   float: left;
 }
 
-#mumImg {
-  border-radius: 5px;
-  height: 300px;
-}
-
-#dadImg {
-  border-radius: 5px;
-  height: 300px;
-}
-
-#calumImg {
-  border-radius: 5px;
-  height: 300px;
-}
-
-#fraserImg {
-  border-radius: 5px;
-  height: 300px;
-}
-
-#dogImg {
+/*css for images to give round corners and set the height*/
+img {
   border-radius: 5px;
   height: 300px;
 }

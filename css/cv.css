@@ -1,11 +1,16 @@
+/*css to give heading no margin*/
+h2 {
+  margin-bottom: 0px;
+}
 
-
+/*css to set section background colour, width and setting the section to flaot to the left of the page*/
 #cvmainSection {
   background-color: #F7F7FF;
-  width: 50%;
+  width: 45%;
   float: left;
 }
 
+/*to set section background colour, width and setting the section to float to the right of the page  */
 #cvsideSection {
   background-color: #F7F7FF;
   width: 50%;

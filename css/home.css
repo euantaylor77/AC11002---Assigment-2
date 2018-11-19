@@ -1,3 +1,4 @@
+/*css for main content to set the colour of background, width and height, margin and setting the section to float to the left of the page  */
 #mainContent {
   background-color: #F7F7FF;
   width: 40%;
@@ -6,6 +7,7 @@
   margin-bottom: 20px;
 }
 
+/*css for main content to set the colour of background, width and height, setting the section to float to the right of the page  */
 #sideContent {
   background-color: #F7F7FF;
   width: 50%;
@@ -13,6 +15,12 @@
   height: 200px;
 }
 
-#euanImg {
+/*css setting image corners to be rounded*/
+img{
   border-radius: 8px;
+}
+
+/*css giving heading a margin*/
+h2{
+  margin-bottom: 15px;
 }

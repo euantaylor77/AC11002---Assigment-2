@@ -37,6 +37,13 @@ h3 {
   color: #272635;
 }
 
+h4{
+  font-size: 25px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-weight: 400;
+  color: #272635;
+}
+
 p {
   font-family: 'Quattrocento Sans', sans-serif;
   color: #5F5B6B;
@@ -163,6 +170,8 @@ header img {
   width: 30%;
   float: right;
 }
+
+/*css for main heading used on all pages*/
 #mainheading{
   background-color: #272635;
   color: #F7F7FF;
