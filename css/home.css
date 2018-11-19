@@ -1,22 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700|Quattrocento:400,700');
-
-
-
-#mainContent{
-background-color:#F7F7FF ;
-width: 40%;
-float: left;
-height: 200px;
-
-}
-#sideContent{
-background-color:#F7F7FF;
-width: 50%;
-float: right;
-height: 200px;
-
+#mainContent {
+  background-color: #F7F7FF;
+  width: 40%;
+  float: left;
+  height: 200px;
+  margin-bottom: 20px;
 }
 
-#euanImg{
+#sideContent {
+  background-color: #F7F7FF;
+  width: 50%;
+  float: right;
+  height: 200px;
+}
+
+#euanImg {
   border-radius: 8px;
 }
