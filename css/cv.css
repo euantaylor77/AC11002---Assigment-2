@@ -1,26 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700|Quattrocento:400,700');
 
-#cvmainSection{
-  background-color:#F7F7FF ;
-  width:50%;
+
+#cvmainSection {
+  background-color: #F7F7FF;
+  width: 50%;
   float: left;
-
 }
-#cvsideSection{
-  background-color:#F7F7FF ;
-  width:50%;
-  float: right;
 
-}
-#education_historyphoto{
-  background-color:#F7F7FF ;
-  width:50%;
+#cvsideSection {
+  background-color: #F7F7FF;
+  width: 50%;
   float: right;
-
 }
-#employment_historyphoto{
-  background-color:#F7F7FF ;
-  width:50%;
-  float: right;
-  height: 200px;
-  }

@@ -1,0 +1,62 @@
+.joanneCard {
+  max-width: 45%;
+  margin-left: 35px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  float: left;
+}
+
+.grantCard {
+  max-width: 45%;
+  margin-left: 35px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  float: right;
+}
+
+.calumCard {
+  width: 30%;
+  margin-left: 35px;
+  margin-right: 10px;
+  border-radius: 5px;
+  float: left;
+}
+
+.fraserCard {
+  width: 30%;
+  margin-right: 10px;
+  border-radius: 5px;
+  float: left;
+}
+
+.murphyCard {
+  width: 30%;
+  border-radius: 5px;
+  float: left;
+}
+
+#mumImg {
+  border-radius: 5px;
+  height: 300px;
+}
+
+#dadImg {
+  border-radius: 5px;
+  height: 300px;
+}
+
+#calumImg {
+  border-radius: 5px;
+  height: 300px;
+}
+
+#fraserImg {
+  border-radius: 5px;
+  height: 300px;
+}
+
+#dogImg {
+  border-radius: 5px;
+  height: 300px;
+}
