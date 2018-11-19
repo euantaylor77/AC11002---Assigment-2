@@ -1,11 +1,14 @@
+/*css for img of me(euan)*/
 #euanImg {
   border-radius: 8px;
 }
 
+/*css for aligning text to centre  */
 #contact_info {
   text-align: center;
 }
 
+/*css to giv heading a bootmo margin*/
 h2 {
   margin-bottom: 5px;
 }
