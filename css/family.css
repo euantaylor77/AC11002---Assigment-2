@@ -45,4 +45,15 @@
 img {
   border-radius: 5px;
   height: 300px;
+  width: 270px;
+}
+
+/*css for imgae of joanne*/
+#joanneimg{
+  width: 320px;
+}
+
+/*css for imgae of grant*/
+#grantimg{
+  width: 320px;
 }
